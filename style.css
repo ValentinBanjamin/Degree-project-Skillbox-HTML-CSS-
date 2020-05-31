@@ -5,16 +5,33 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-.content{
+.content {
 	width: 1170px;
 	height: 100%;
 	margin:0 auto;
+	position: relative;
 	
 	}
+
+.button {
+	width: 270px;
+	height: 60px;
+	background-color: #ff4e2e;
+	color: white;
+	border:none;
+	outline: orange;
+	font-size: 18px;
+	margin-bottom: 100px;
+	display: inline-block;
+	margin-right: 300px;
+}
 
 .header {
 	background-color: #fbfbfb;
 	height: 770px;
+	overflow: hidden;
+	
+
 }
 	.navigation {
 		padding-top: 50px;
@@ -22,7 +39,7 @@
 		display: inline-block;
 	}
 
-		.disable{
+		.disable {
 			text-decoration: none;
 			color: black;
 			margin-right: 30px;
@@ -35,21 +52,50 @@
 			color: #fc557c;
 			border-bottom:1px solid #fc557c;
 		}
-.ordered-call {
-	float: right;
-	display: inline-block;
-	margin-top: 46px;
-	border:1px solid #f82370;
-	padding: 10px 30px;
-	outline-color: pink;
-	color: #fc557c;
-	background-color: #fbfbfb;
-}
 
-.number {
-	float: right;
-	display:inline-block;
-	margin: 48px 30px;
-	font-weight:bold;
-	font-size: 25px;
-}
+	.ordered-call {
+		float: right;
+		display: inline-block;
+		margin-top: 46px;
+		border:1px solid #f82370;
+		padding: 10px 30px;
+		outline-color: pink;
+		color: #fc557c;
+		background-color: #fbfbfb;
+	}
+
+	.number {
+		float: right;
+		display:inline-block;
+		margin: 48px 30px;
+		font-weight:bold;
+		font-size: 25px;
+	}
+
+	.h1 {
+		font-size: 80px;
+		margin-top: 230px;
+		margin-bottom: 0px;
+		width: 700px;
+		display: inline-block;
+	}
+
+	.h3 {
+		color: #8993ad;
+		margin-bottom: 50px;
+		width: 700px;
+		display: inline-block;
+	}
+	.ellipse {
+		position: absolute;
+		display: inline-block;
+		right: -400px;
+		height: 630px;
+		top:300px;
+	}
+	.photo {
+		position: absolute;
+		bottom: 0;
+		height: 630px;
+		right: -160px;
+	}
