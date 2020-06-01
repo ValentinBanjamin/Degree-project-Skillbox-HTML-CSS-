@@ -46,7 +46,7 @@
 	.ordered-call {
 		float: right;
 		display: inline-block;
-		margin-top: 46px;
+		margin-top: 40px;
 		border:1px solid #f82370;
 		padding: 10px 30px;
 		outline-color: pink;
@@ -57,7 +57,7 @@
 	.number {
 		float: right;
 		display:inline-block;
-		margin: 48px 30px;
+		margin: 43px 30px;
 		font-weight:bold;
 		font-size: 25px;
 	}
@@ -114,50 +114,156 @@
 	height: 1870px;
 }
 
-		.section-doing {
-			height: 646px;
-			background-color: white;
-			position: relative;
+	.section-doing {
+		height: 700px;
+		background-color: white;
+		position: relative;
 		}
 
-			.flex-container {
-				display: flex;
-				height: 200px;
-				width: 100%;
-				justify-content: space-between;
-				margin-top: 100px;
-
+		.flex-container {
+			display: flex;
+			height: 200px;
+			width: 100%;
+			justify-content: space-between;
+			margin-top: 100px;
 			}
 
-				.flex-items {
-					position: relative;
-					width: 300px;
-					height: 170px;
+			.flex-items {
+				position: relative;
+				width: 300px;
+				height: 170px;
 				}
 
-					.item-image {
-						display: block;
-						margin: 0 auto;
-						width: 80px;
-						height: 76px;
+				.item-image {
+					display: block;
+					margin: 0 auto;
+					width: 80px;
+					height: 76px;
 					}
 
-					.item-text {
-						text-align: center;
-						font-size: 20px;
-						color:#8993ad;
+				.item-text {
+					text-align: center;
+					font-size: 20px;
+					color:#8993ad;
 					}		
 
-			.button {
-				width: 270px;
-				height: 60px;
-				background-color: #ff4e2e;
-				color: white;
-				border:none;
-				display: inline-block;
-				outline: orange;
-				font-size: 18px;
-				margin: 80px auto;
-				position: relative;
-				display: block;
-				}
+		.button {
+			width: 270px;
+			height: 60px;
+			background-color: #ff4e2e;
+			color: white;
+			border:none;
+			display: inline-block;
+			outline: orange;
+			font-size: 18px;
+			margin: 70px auto;
+			position: relative;
+			display: block;
+			}
+	.works {
+		background-color: #fbfbfb;
+		height: 860px;
+	}
+	.work-1 {
+		height: 400px;
+	}
+	.work-2 {
+		height: 400px;
+	}
+	.work-3 {
+		height: 400px;
+	}
+
+	.work-image-1 {
+		margin-left: 30px;
+		margin-right: 30px;
+		width: 350px;
+		height: 290px;
+		background-image: url(img/work-1.jpg);
+		background-position: center;
+	}
+	.work-image-2 {
+		margin-left: 30px;
+		margin-right: 30px
+		width: 350px;
+		height: 290px;
+		background-image: url(img/work-2.jpg);
+		background-position: center;
+	}
+	.work-image-3 {
+		margin-left: 30px;
+		margin-right: 30px;
+		width: 350px;
+		height: 290px;
+		background-image: url(img/work-3.jpg);
+		background-position: center;
+	}
+    .slider {
+      position: relative;
+      padding-right: 30px;
+      overflow: hidden;
+          }
+
+	    .slider__wrapper {
+	      display: flex;
+	      transition: transform 0.6s ease;
+	    }
+
+	    .slider__item {
+	      flex: 0 0 33.3333%;
+	      max-width: 33.3333%;
+	    }
+
+	    .slider__control {
+	      position: absolute;
+	      top: 35%;
+	      display: flex;
+	      align-items: center;
+	      justify-content: center;
+	      overflow: visible;
+	      color: #fff;
+	      text-align: center;
+	      opacity: 0.5;
+	      height: 50px;
+	      transform: translateY(-50%);
+	    }
+
+	    .slider__control:hover,
+	    .slider__control:focus {
+	      color: #fff;
+	      text-decoration: none;
+	      outline: 0;
+	      opacity: .9;
+	    }
+
+	    .slider__control_left {
+	      left: 0px;
+	    }
+
+	    .slider__control_right {
+	      right: 0px;
+	    }
+
+	    .slider__control::before {
+	      content: '';
+	      display: inline-block;
+	      width: 60px;
+	      height: 60px;
+	      background: transparent no-repeat center center;
+	    }
+
+	    .slider__control_left::before {
+	      background-image: url("img/arrow.png");
+	    }
+
+	    .slider__control_right::before {
+	      background-image: url("img/arrow.png");
+	      transform: rotate(180deg);
+	    }
+
+	    .h4 {
+	    	font-size: 20px;
+	    	color:#8993ad;
+	    	text-align: center;
+	    	padding-left: 30px;
+		    }	
