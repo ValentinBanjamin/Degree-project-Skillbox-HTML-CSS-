@@ -326,3 +326,146 @@
 			right:  -250px;
 			transform: rotate(-30deg);
 		}
+
+.footer {
+height: 340px;
+}
+	
+	.footer-big {
+		background-color: white;
+		height: 260px;
+		margin-top: 60px;
+		position: relative;
+	}
+
+		.footer-nav {
+			padding-top:75px;
+			height: 120px;
+			width: 110px;
+		}
+
+			.nav-item {
+				font-size: 18px;
+				text-decoration: none;
+				color:#8993ad;
+				margin-top: 13px;
+				display: block;
+			}
+
+		.contact-block {
+			height: 100px;
+			width: 370px;
+			position: absolute;
+			left: 400px;
+			top: 40px;
+			margin: 0;
+			font-size: 25px;
+
+		}
+
+		.contact-icon {
+			font-family: 'icon', sans-serif;;
+			width: 35px;
+			position: relative;
+			left: -5px;
+			padding-left: 8px;
+			height: 35px;
+			display: inline-block;
+			color: #f6355b;
+			line-height: 30px;
+			font-size: 23px;
+			transform: rotate(90deg);
+		}
+		.contact-icon2 {
+			font-family: 'icon', sans-serif;;
+			width: 35px;
+			position: relative;
+			color: #f6355b;
+			top: 5px;
+			padding-left: 8px;
+			height: 35px;
+			display: inline-block;
+			line-height: 30px;
+			font-size: 25px;
+			
+		}
+		.contact-text {
+			width: 255px;
+			display: inline-block;
+			padding-top: 40px;
+			margin-left: 20px;
+		}
+		.social-block {
+			position: absolute;
+			top: 80px;
+			right:  0;
+
+			width: 270px;
+			height:120px;
+			
+		}
+			.ordered-call-number2 {
+				margin: 0 100px 0 0;
+				float: left;
+				position: relative;
+
+			}
+			.social-icon1 {
+				display: inline-block;
+				background-image: url(img/sprait.png);
+				background-repeat: no-repeat;
+				background-position: -275px -250px;
+				margin-top: 50px;
+				margin-right: 20px;
+				width: 50px;
+				height:50px;
+			}
+			.social-icon2 {
+				display: inline-block;
+				background-image: url(img/sprait.png);
+				background-repeat: no-repeat;
+				background-position: -145px -180px;
+				margin-top: 50px;
+				margin-right: 20px;
+				width: 50px;
+				height:50px;
+			}
+			.social-icon3 {
+				display: inline-block;
+				background-image: url(img/sprait.png);
+				background-repeat: no-repeat;
+				background-position: -80px -180px;
+				margin-top: 50px;
+				margin-right: 20px;
+				width: 50px;
+				height:50px;
+			}	
+
+
+
+
+	.footer-small {
+		background-color: #31293c;
+		height: 50px;
+		text-align: center;
+		color: white;
+		padding-top: 30px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: "icon"; 
+src: url("fonts/dripicons-v2.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
