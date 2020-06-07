@@ -1,15 +1,15 @@
 .body {
 	width: 100%; 
-	min-width: 1210px;
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
 
 .content {
-	width: 1170px;
+	max-width: 1170px;
 	height: 100%;
 	margin:0 auto;
+	padding: 0 40px;
 	position: relative;
 	
 	
@@ -21,7 +21,6 @@
 	background-color: #fbfbfb;
 	height: 770px;
 	overflow: hidden;
-	
 
 }
 	.navigation {
@@ -62,7 +61,9 @@
 		font-weight:bold;
 		font-size: 25px;
 	}
-
+	.menu {
+		display: none;
+	}
 	.h1 {
 		font-size: 80px;
 		margin-top: 230px;
@@ -140,7 +141,7 @@
 		outline: orange;
 		font-size: 18px;
 		margin-bottom: 100px;
-		display: inline-block;
+		display: block;
 		margin-right: 300px;
 		}
 
@@ -168,7 +169,7 @@
 }
 
 .main {
-	height: 1870px;
+
 }
 
 	.section-doing {
@@ -333,16 +334,17 @@
 		}
 
 		.price-text {
+			padding: 70px 100px 30px 100px;
 			font-size: 45px;
 			font-weight: bold;
 			color: white;
-			padding: 85px 110px 40px 110px;
+			
 		}
 
 		.price-litle-text {
 			font-size: 18px;
 			color: white;
-			padding: 0px 300px 40px 110px;
+			padding: 0px 100px 40px 100px;
 		}
 		.fly-tag1 {
 			color: white;
@@ -397,7 +399,6 @@ height: 340px;
 	.footer-big {
 		background-color: white;
 		height: 260px;
-		margin-top: 60px;
 		position: relative;
 	}
 
@@ -419,7 +420,7 @@ height: 340px;
 			height: 100px;
 			width: 370px;
 			position: absolute;
-			left: 400px;
+			left: 35%;
 			top: 40px;
 			margin: 0;
 			font-size: 25px;
@@ -532,4 +533,49 @@ font-family: "icon";
 src: url("fonts/dripicons-v2.ttf") format("truetype"); 
 font-style: normal; 
 font-weight: normal; 
-} 
+}
+
+@media (max-width: 1160px) {
+
+	.h1 {
+		margin-top: 180px;
+	}
+
+}
+
+@media (max-width: 1024px) {	
+	.flex-container {
+		height: 500px;
+		
+		flex-wrap: wrap;
+	}
+	.section-doing {
+		height: 1000px;
+		
+	}
+	.flex-items {
+		width: 310px;
+		justify-content:space-around;
+		}
+	.navigation {
+		display: none;
+	}
+	.h1 {
+		margin-top: 190px;
+	}
+	.menu {
+		display: inline-block;
+		margin-top:  40px;
+		background-repeat: no-repeat;
+		background-image: url(img/icon-menu.jpg);
+		outline: none;
+		border:none;
+		padding: 16px 22px;
+	}
+	.price-text {
+		padding: 40px 0;
+	}
+	.price-litle-text {
+		padding: 0;
+	}
+}
