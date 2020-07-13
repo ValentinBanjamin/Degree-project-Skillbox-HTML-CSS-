@@ -1,4 +1,22 @@
+$('.menu').click(function () {
+  $('.menu-list').toggleClass('invisible');
+  $('.menu').toggleClass('invisible');
+});
+$('.menu-close').click(function(){
+  $('.menu-list').toggleClass('invisible');
+  $('.menu').toggleClass('invisible');
+})
 
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////
     'use strict';
     var multiItemSlider = (function () {
       return function (selector, config) {

@@ -16,7 +16,6 @@
 	}
 
 
-
 .header {
 	background-color: #fbfbfb;
 	height: 770px;
@@ -62,8 +61,36 @@
 		font-size: 25px;
 	}
 	.menu {
-		display: none;
+		display:none;
+		position: absolute;
 	}
+		.menu-a {
+			text-decoration: none;
+			color: black;
+			padding-left: 30px;
+		}
+
+		.menu-list {
+			width: 30vw;
+			
+			padding: 0;
+			top: 40px;
+			position: absolute;
+		}
+		.menu-item {
+			margin-top: 20px;
+			background-color: white;
+			font-weight: bold;
+			font-size: 30px;
+			border:1px solid grey;
+		}
+		.menu-close {
+			width: 40px;
+			margin:10px 20px;
+			color:#f6355b;
+			font-size: 30px;
+			font-weight: bold;
+		}
 	.h1 {
 		font-size: 80px;
 		margin-top: 230px;
@@ -233,32 +260,29 @@
 	}
 
 	.work-image-1 {
-		margin-left: 30px;
-		margin-right: 30px;
-		width: 350px;
+		margin:0 15px;
+		max-width: 350px;
 		height: 290px;
 		background-image: url(img/work-1.jpg);
 		background-position: center;
 	}
 	.work-image-2 {
-		margin-left: 30px;
-		margin-right: 30px
-		width: 350px;
+		margin:0 15px;
+		
+		max-width: 350px;
 		height: 290px;
 		background-image: url(img/work-2.jpg);
 		background-position: center;
 	}
 	.work-image-3 {
-		margin-left: 30px;
-		margin-right: 30px;
-		width: 350px;
+		margin:0 15px;
+		max-width: 350px;
 		height: 290px;
 		background-image: url(img/work-3.jpg);
 		background-position: center;
 	}
     .slider {
       position: relative;
-      padding-right: 30px;
       overflow: hidden;
           }
 
@@ -553,6 +577,10 @@ font-weight: normal;
 		height: 1000px;
 		
 	}
+	.slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
 	.flex-items {
 		width: 310px;
 		justify-content:space-around;
@@ -578,4 +606,12 @@ font-weight: normal;
 	.price-litle-text {
 		padding: 0;
 	}
+	.contact-block {
+		left: 25%;
+	}
 }
+
+.invisible {
+	display: none;
+}
+

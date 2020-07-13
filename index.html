@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
+	<script type="text/javascript" src="jquery-3.5.0.min.js"></script>
 	<script defer src="script.js"></script>
 </head>
 
@@ -13,7 +14,15 @@
 
 	<header class="header">
 		<div class="content">
-			<button class="menu"></button>
+			<div class="menu-list invisible">
+				<div class="menu-close">✕</div>
+				<div class="menu-item"><a class="menu-a"href="#">Портфолио</a></div>
+				<div class="menu-item"><a class="menu-a"href="#">Услуги</a></div>
+
+			</div>
+			<button class="menu">
+			</button>
+
 			<nav class="navigation">
 				<a href="#" class="disable">Услуги</a>
 				<a href="#" class="selected">Портфолио</a>
@@ -68,12 +77,6 @@
 				<h2 class="h2">Примеры моих работ</h2>
 			  <div class="slider">
 			    <div class="slider__wrapper">
-			      <div class="slider__item">
-			        <div class="work-1">
-			        	<div class="work-image-1"></div>
-			        	<h4  class="h4">Сайт психолога Веры Антоновой</h4>
-			        </div>
-			      </div>
 			      <div class="slider__item">
 			        <div class="work-1">
 			        	<div class="work-image-1"></div>
